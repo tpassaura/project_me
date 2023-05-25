@@ -1,0 +1,29 @@
+.project_list{
+    font-family: var(--content_font);
+    display: flex;
+    max-width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    
+}
+
+.project_item{
+    margin-bottom: 1.5vw;
+    margin-top: 1vw;
+    align-items: flex-start;
+    width: 25vw;
+}
+
+.project_name{
+    font-weight: bold;
+    font-size: 1.5vw;
+    text-decoration: underline 1px;
+    color: var(--font_color);
+}
+
+.project_description{
+    margin-top: 1vw;
+    font-size: 1.5vw ;
+}
+

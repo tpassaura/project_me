@@ -1,0 +1,45 @@
+var project_names = [
+    adieu,
+    bank,
+    bitcoin,
+    camel,
+    coke,
+    deep,
+    einstein,
+    emojize,
+    extensions,
+    faces,
+    figlet,
+    fuel,
+    game,
+    grocery,
+    indoor,
+    interpreter,
+    jar,
+    lines,
+    meal,
+    numb3rs,
+    nutrition,
+    outdated,
+    pizza,
+    plates,
+    playback,
+    professor,
+    project,
+    response
+    scourgify
+    seasons
+    shirt
+    shirtificate
+    taqueria
+    test_bank
+    test_fuel
+    test_plates
+    test_twttr
+    tip
+    twttr
+    um
+    watch
+    working
+
+]

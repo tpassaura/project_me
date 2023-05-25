@@ -1,0 +1,18 @@
+.contact_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: var(--content_font);
+}
+
+.contact_item{
+    margin-top:2vw;
+}
+
+.contact_name{
+    font-weight: bold;
+    font-size: 1.5vw;
+    text-decoration: underline 1px;
+    color: var(--font_color);
+}
+

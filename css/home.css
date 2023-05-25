@@ -1,0 +1,77 @@
+.header{
+    font-family: var(--header_font);
+    padding: 5vw;
+    display: flex;
+    align-items: flex-end;
+    text-transform: uppercase;
+}
+
+.header_title{
+    font-size: 15vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 7.1vw;
+}
+
+.about{
+    font-family: var(--content_font);
+    font-size: 2vw;
+    font-weight:500;
+    color: var(font_color);
+}
+
+.about > p{
+    margin: 1rem;
+}
+
+.header_nav{
+    padding-left: 5rem;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 500;
+    font-size: 6rem;
+}
+
+.nav_button{
+    padding: .2rem;
+    transition: transform 300ms ease-in-out,
+         -webkit-transform 300ms ease-in-out; 
+}
+
+.nav_button:hover{
+    -webkit-transform: translate(5px, 0%);
+    -ms-transform: translate(5px, 0%);
+    transform: translate(5px, 0%);
+    font-style: italic;
+}
+
+.tech_list{
+    display: flex;
+    justify-content:space-evenly;
+    list-style-type: disc;
+
+}
+
+.tech_item{
+    margin-left: 2vw;
+    font-size: 1.2vw;
+}
+
+.footer{
+    font-size: 1.2vw;
+    display: flex;
+    justify-content:center;
+    font-weight: bold;
+    font-size: 1.5vw;
+    font-family: var(--content_font);
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+}
+
+
+
+
+
+
+  
+ 
+ 
