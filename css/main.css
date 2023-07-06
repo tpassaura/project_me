@@ -12,7 +12,7 @@
     --cursor_color:rgb(170,156,146);
     --cursor_clickColor: black;
     --cursor_color_clicked:rgb(170,156,146,10);
-    --border-color:#ece7e1; ;
+    --border-color:#ece7e1;
     --header_font: 'antiqua-roman';
     --content_font:'Rajdhani';
     cursor: none;
@@ -53,7 +53,7 @@ body{
   }
 
 .cursor.clicked{
-    opacity: 20%;
+    opacity: 0.2;
     transform: scale(2);
     transform-origin: center center;
     mix-blend-mode: difference;
@@ -66,7 +66,6 @@ a{
 }
 a:visited{
     color:var(--font_color);
-    cursor: none;
 }
 
 a:hover,
@@ -143,9 +142,10 @@ a:hover,
 .container{
     margin-left: 5vw;
     margin-right: 5vw;
+    margin-bottom: 4%;
     padding-left: 4%;
     padding-right: 4%;
-    margin-bottom: 4%;
+
 }
 
 .title{
@@ -154,6 +154,49 @@ a:hover,
     font-weight: bold;
     display: flex;
     justify-content: space-around;
-    padding-top: 3vw;
 }
 
+.header{
+    height: 100vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    align-items: flex-start;
+}
+
+.header_title{
+    font-size: 15vw;
+    font-family: var(--header_font);
+    text-transform: uppercase;
+
+
+}
+
+
+.nav_button{
+    padding: .2rem;
+     transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out; 
+    transition: transform 300ms ease-in-out;
+    -webkit-transition: -webkit-transform 300ms ease-in-out;
+}
+
+.nav_button:hover{
+    -webkit-transform: translate(5px, 0%);
+    -ms-transform: translate(5px, 0%);
+    transform: translate(5px, 0%);
+    font-style: italic;
+}
+
+.footer{
+    font-size: 1.2vw;
+    display: flex;
+    justify-content:center;
+    font-weight: bold;
+    font-size: 1.5vw;
+    font-family: var(--content_font);
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+}
