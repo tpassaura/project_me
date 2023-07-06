@@ -15,13 +15,17 @@ function setCursorSize() {
 }
 
 
-function mouseMove(){
-// Add mousemove event listener to move the cursor
+function mouseMove() {
+  // Add mousemove event listener to move the cursor
   document.addEventListener('mousemove', e => {
-  const cursorCenter = size / 2;
-  cursor.style.top = `${e.pageY - cursorCenter}px`;
-  cursor.style.left = `${e.pageX - cursorCenter}px`;
-});
+    const cursorCenter = size / 2;
+    const top = e.clientY || e.pageY - window.scrollY;
+    const left = e.clientX || e.pageX - window.scrollX;
+    cursor.style.transform = `translate3d(${left - cursorCenter}px, ${top - cursorCenter}px, 0)`;
+  });
+}
+
+
 
 // Add mousedown and mouseup event listeners to the document
 document.addEventListener('mousedown', () => {
@@ -31,7 +35,7 @@ document.addEventListener('mousedown', () => {
 document.addEventListener('mouseup', () => {
   cursor.classList.remove('clicked');
 });
-}
+
 
 setCursorSize();
 mouseMove();

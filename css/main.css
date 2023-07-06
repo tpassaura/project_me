@@ -36,20 +36,21 @@ body{
     display: none;
 }
 
-.cursor{
-    position:absolute;
+
+.cursor {
+    position: fixed;
     z-index: 1000;
     width: var(--cursor_size);
     height: var(--cursor_size);
     border-radius: 50%;
-    background-color:var(--cursor_color);
+    background-color: var(--cursor_color);
     transition-timing-function: ease-out;
-    transition-duration: 100ms;
+    transition-duration: 50ms;
     mix-blend-mode: difference !important;
     pointer-events: none;
     padding: var(--cursor_sizeborder);
     background-clip: content-box;
-}
+  }
 
 .cursor.clicked{
     opacity: 20%;
@@ -142,7 +143,9 @@ a:hover,
 .container{
     margin-left: 5vw;
     margin-right: 5vw;
-    padding: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-bottom: 4%;
 }
 
 .title{
