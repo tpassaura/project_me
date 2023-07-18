@@ -1,6 +1,6 @@
 # Project_me
 
-A Personal website portfolio using HTML, CSS and JavaScript
+A Personal website portfolio using HTML, CSS, and JavaScript.
   
  ## Technologies used
   - HTML
