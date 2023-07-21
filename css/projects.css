@@ -20,6 +20,7 @@
     font-size: 1.5vw;
     text-decoration: underline 1px;
     color: var(--font_color);
+    line-height: 2.5vw;
 }
 
 .project_description{
